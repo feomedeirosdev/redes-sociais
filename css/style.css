@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
-* {margin: 0; padding: 0; boarder: 0;}
+* {margin: 0; padding: 0; boarder: 0; box-sizing: border-box;}
 
 html, body {
 	height: 100vh;
 	width: 100vw;
 	font: 16px 'Open Sans', sans-serif;
+	background-color: antiquewhite;
 }
 
 #cabecalho {
@@ -47,16 +48,27 @@ html, body {
 	font-weight: bold;
 }
 
+/* main {
+	background-color: white;
+} */
+
+#smartphone {
+	margin: 100px auto;
+	background: url('../imagens/smatphone-bgremove2.png') no-repeat;
+	width: 363px;
+	height: 700px;
+}
+
+
 #rodape {
 	background-color: silver;
 	color: #FFFFFF;
 }
 
 #rodape p {
+	padding: 20px 10px;
 	background-color: #000000; 
 	text-align: center;
-	height: 50px;
-	line-height: 50px;
 }
 
 .corpo {
